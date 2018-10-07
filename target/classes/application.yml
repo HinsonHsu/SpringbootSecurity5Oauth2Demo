@@ -1,0 +1,10 @@
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+server:
+  port: 8443
+  ssl:
+    key-store: classpath:mykeys.jks
+    key-password: overseasapp
+    key-store-password: overseasapp
